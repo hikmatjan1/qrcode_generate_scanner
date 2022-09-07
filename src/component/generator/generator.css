@@ -1,0 +1,66 @@
+.generator {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.generatorWrapper {
+    width: 50%;
+    background-color: silver;
+    margin: auto;
+    padding: 20px;
+}
+.generatorWrapper form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+.generatorWrapper form input {
+    width: 100%;
+    border: none;
+    background-color: lightgray;
+    height: 40px;
+    padding: 0 10px;
+}
+.generatorWrapper form input:focus, .generatorWrapper form button{
+    outline: none;
+}
+.generatorWrapper form button {
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    font-weight: bold;
+}
+.color {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.subject span {
+    padding: 10px 0;
+}
+.download button {
+    width: 300px;
+    border: none;
+    font-weight: bold;
+    margin: 20px 0;
+    background-color: rgb(22,22,22);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .generatorWrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .generatorWrapper form input {
+        width: 100%;
+    }
+}
